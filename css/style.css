@@ -1,0 +1,83 @@
+body {
+  width: 100%;
+  height: auto;
+}
+
+h1 { font-size: 4em; }
+h2 { font-size: 3em; }
+
+#container {
+  width: 60%;
+  display: block;
+  
+  /* Center */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article table, article tr, article td, article h2, article hr {margin-left: 5%;}
+
+/* "Projects" table - start */
+table#projects tr td {
+  border-right: solid #444;
+  border-bottom: solid #444;
+}
+
+table#projects tr td:last-child {
+  border: 0;
+  border-bottom: solid #444;
+}
+
+table#projects tr:last-child td {
+  border: 0;
+  border-right: solid #444;
+}
+
+table#projects tr:last-child td:last-child {
+  border: 0;
+}
+
+table#projects tr:first-child {
+  background-color: #1c70d5;
+  color: #FFFFFF;
+  font-size: 2em;
+}
+
+table#projects tr {
+  font-size: 1.5em;
+}
+
+table#projects {margin-left: 10%; margin-top: 1.5em;}
+
+p.square {
+  text-align: left;
+  padding: 5px;
+}
+
+table#projects tr:first-child td a {color: #fff; text-decoration: none;}
+table#projects tr td:hover {background-color: #d70000; color: #fff;}
+table#projects tr td a {color: inherit; text-decoration: none;}
+table#projects tr td a:hover {text-decoration: underline;}
+
+
+/* "Projects" table - end */
+
+/* "About me" */
+
+table#info tr td:first-child {
+  max-width: 8em;
+}
+
+table#info {margin-bottom: 1em;}
+
+span.field {
+  color: #dd000d;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+article a.first {margin-left: 5%;}
+
+
+
+/* "About me"  end */
