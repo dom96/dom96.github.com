@@ -3,6 +3,8 @@ body {
   height: auto;
 }
 
+header h1 { margin-bottom: 0.35em; }
+
 h1 { font-size: 4em; }
 h2 { font-size: 3em; }
 h3 { font-size: 2em; }
@@ -75,9 +77,18 @@ table#projects tr#first td a:hover {text-decoration: underline;}
 
 /* "About me" */
 
-table#info tr td#first {
+table#info tr td:first-child {
   max-width: 8em;
+  border-right: #1c70d5 solid 1px;
 }
+
+table#info tr {
+  border-bottom: #1c70d5 solid 1px;
+}
+table#info tr:last-child {
+  border: 0;
+}
+
 
 table#info {margin-bottom: 1em;}
 
@@ -85,6 +96,15 @@ span.field {
   color: #dd000d;
   font-weight: bold;
   padding-right: 5px;
+}
+
+table#info tr td.val {
+  padding-left: 5px;
+}
+
+table#info tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 article a.first {margin-left: 5%;}
